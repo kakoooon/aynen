@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const imageButtons = [
-  { id: 1, gradient: "from-purple-500 to-pink-500", icon: "✨", label: "Magic" },
-  { id: 2, gradient: "from-blue-500 to-cyan-500", icon: "🌊", label: "Ocean" },
-  { id: 3, gradient: "from-green-500 to-emerald-500", icon: "🌿", label: "Nature" },
-  { id: 4, gradient: "from-orange-500 to-red-500", icon: "🔥", label: "Fire" },
-  { id: 5, gradient: "from-indigo-500 to-purple-500", icon: "🚀", label: "Space" },
-  { id: 6, gradient: "from-yellow-500 to-orange-500", icon: "⚡", label: "Energy" },
-  { id: 7, gradient: "from-red-500 to-orange-500", icon: "🦠", label: "Center" },
+const portfolioItems = [
+  { id: 1, category: "Design", icon: "😊", label: "About Me" },
+  { id: 2, category: "Skills", icon: "🧪", label: "Skills" },
+  { id: 3, category: "Projects", icon: "🍰", label: "Projects" },
+  { id: 4, category: "Music", icon: "🎵", label: "Music" },
+  { id: 5, category: "Media", icon: "📼", label: "Media" },
+  { id: 6, category: "Food", icon: "🍞", label: "Blog" },
+  { id: 7, category: "Portfolio", icon: "💼", label: "Portfolio" },
 ];
 
 export default function Index() {
@@ -40,96 +40,96 @@ export default function Index() {
 
         {/* Container for scattered buttons */}
         <div className="relative w-full max-w-6xl h-96 md:h-[500px]">
-          {/* Button 1 - Top Left */}
+          {/* Button 1 - Top Left - Smiley Face */}
           <button
             onClick={() => handleButtonClick(1)}
             className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fb19e2ba5cf8945f1814cda1f9cfba0bf?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fc0e5a66fff5840b8b08eed9c2400f9d4?format=webp&width=800"
+              alt="Smiley Face"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 2 - Top Right */}
+          {/* Button 2 - Top Right - Potion */}
           <button
             onClick={() => handleButtonClick(2)}
             className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F1c248b9e352741f190b63e4c8aa05e11?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F12d6052df9f04923a1e47068c837b4af?format=webp&width=800"
+              alt="Potion"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 3 - Middle Left */}
+          {/* Button 3 - Middle Left - Cake Slice */}
           <button
             onClick={() => handleButtonClick(3)}
             className="absolute top-1/2 left-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fdeb262142b3c4706a1945ce505d676ed?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F6948f913d89b4e26877500f69630773f?format=webp&width=800"
+              alt="Cake Slice"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 4 - Middle Right */}
+          {/* Button 4 - Middle Right - Music Note */}
           <button
             onClick={() => handleButtonClick(4)}
             className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F7fdcc062dd9a4885b4460fe2f54cb6bb?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F04be9eb475d0436badc2cd6e493bf06c?format=webp&width=800"
+              alt="Music Note"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 5 - Bottom Left */}
+          {/* Button 5 - Bottom Left - Cassette Tape */}
           <button
             onClick={() => handleButtonClick(5)}
             className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F0a61a95462c84ff49456fd512061a3f7?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F17cb708c47b943d394f1133e10e83e9e?format=webp&width=800"
+              alt="Cassette Tape"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 6 - Bottom Right */}
+          {/* Button 6 - Bottom Right - Bread Slice */}
           <button
             onClick={() => handleButtonClick(6)}
             className="absolute bottom-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
-              alt="Button icon"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F4528dcd956da4f95992834915cbaac5d?format=webp&width=800"
+              alt="Bread Slice"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 7 - Center */}
+          {/* Button 7 - Center - Animated GIF */}
           <button
             onClick={() => handleButtonClick(7)}
             className="absolute top-1/2 left-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -ml-8 md:-ml-10 -mt-8 md:-mt-10"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F370e1394f04243e4b373db75a2e1c9f5?format=webp&width=800"
-              alt="Button icon"
+              src="https://i.pinimg.com/originals/2b/87/8f/2b878fc08878b8673b9a942a8f5fac55.gif"
+              alt="Animated Center"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
         </div>
 
-        {/* Active button indicator */}
+        {/* Active section indicator */}
         {activeButton && (
           <div className="mt-8 text-center">
-            <p className="text-white text-lg">
-              You clicked: <span className="font-semibold text-purple-400">{imageButtons[activeButton - 1].label}</span>
+            <p className="text-white text-lg font-comic">
+              Exploring: <span className="font-semibold text-purple-400">{portfolioItems[activeButton - 1].label}</span>
             </p>
           </div>
         )}
