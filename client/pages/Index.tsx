@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const imageButtons = [
   { id: 1, gradient: "from-purple-500 to-pink-500", icon: "✨", label: "Magic" },
@@ -12,15 +12,34 @@ const imageButtons = [
 
 export default function Index() {
   const [activeButton, setActiveButton] = useState<number | null>(null);
+  const [audioStarted, setAudioStarted] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const startAudio = () => {
+    if (!audioStarted && audioRef.current) {
+      audioRef.current.play().catch(console.error);
+      setAudioStarted(true);
+    }
+  };
 
   const handleButtonClick = (id: number) => {
     setActiveButton(id);
-    // Add any action you want when button is clicked
+    startAudio(); // Start audio on first button click
     console.log(`Button ${id} clicked!`);
   };
 
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
+      {/* Background Music */}
+      <audio
+        ref={audioRef}
+        loop
+        preload="auto"
+        className="hidden"
+      >
+        <source src="/finale.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       {/* Background decorative elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl"></div>
