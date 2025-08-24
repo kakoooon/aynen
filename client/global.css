@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Gothic Pixel';
-  src: url('/gothic-pixel-font.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @layer base {
   /**
    * Tailwind CSS theme
