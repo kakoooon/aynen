@@ -43,7 +43,7 @@ export default function Index() {
           {/* Button 1 - Top Left */}
           <button
             onClick={() => handleButtonClick(1)}
-            className="absolute top-8 left-16 md:left-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
@@ -55,7 +55,7 @@ export default function Index() {
           {/* Button 2 - Top Right */}
           <button
             onClick={() => handleButtonClick(2)}
-            className="absolute top-8 right-16 md:right-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
@@ -67,7 +67,7 @@ export default function Index() {
           {/* Button 3 - Middle Left */}
           <button
             onClick={() => handleButtonClick(3)}
-            className="absolute top-1/2 left-8 md:left-16 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-1/2 left-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
@@ -79,7 +79,7 @@ export default function Index() {
           {/* Button 4 - Middle Right */}
           <button
             onClick={() => handleButtonClick(4)}
-            className="absolute top-1/2 right-8 md:right-16 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-1/2 right-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
@@ -91,7 +91,7 @@ export default function Index() {
           {/* Button 5 - Bottom Left */}
           <button
             onClick={() => handleButtonClick(5)}
-            className="absolute bottom-8 left-16 md:left-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
@@ -103,7 +103,7 @@ export default function Index() {
           {/* Button 6 - Bottom Right */}
           <button
             onClick={() => handleButtonClick(6)}
-            className="absolute bottom-8 right-16 md:right-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute bottom-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
