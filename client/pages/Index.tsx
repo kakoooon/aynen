@@ -30,14 +30,11 @@ export default function Index() {
       {/* Main content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            Interactive
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent block">
-              Elements
-            </span>
+          <h1 className="text-5xl md:text-7xl font-bold text-red-500 mb-6 tracking-tight font-gothic">
+            Kakoon
           </h1>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Discover the magic by hovering over the scattered elements around the page
+          <p className="text-xl text-white max-w-2xl mx-auto leading-relaxed font-gothic">
+            Viruses at a reasonable price
           </p>
         </div>
 
