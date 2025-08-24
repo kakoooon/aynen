@@ -46,7 +46,7 @@ export default function Index() {
             className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fb19e2ba5cf8945f1814cda1f9cfba0bf?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
@@ -58,7 +58,7 @@ export default function Index() {
             className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F1c248b9e352741f190b63e4c8aa05e11?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
@@ -70,7 +70,7 @@ export default function Index() {
             className="absolute top-1/2 left-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fdeb262142b3c4706a1945ce505d676ed?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
@@ -82,7 +82,7 @@ export default function Index() {
             className="absolute top-1/2 right-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F7fdcc062dd9a4885b4460fe2f54cb6bb?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
@@ -94,7 +94,7 @@ export default function Index() {
             className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F0a61a95462c84ff49456fd512061a3f7?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
