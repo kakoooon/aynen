@@ -7,6 +7,7 @@ const imageButtons = [
   { id: 4, gradient: "from-orange-500 to-red-500", icon: "🔥", label: "Fire" },
   { id: 5, gradient: "from-indigo-500 to-purple-500", icon: "🚀", label: "Space" },
   { id: 6, gradient: "from-yellow-500 to-orange-500", icon: "⚡", label: "Energy" },
+  { id: 7, gradient: "from-red-500 to-orange-500", icon: "🦠", label: "Center" },
 ];
 
 export default function Index() {
@@ -107,6 +108,18 @@ export default function Index() {
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
+              alt="Button icon"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
+            />
+          </button>
+
+          {/* Button 7 - Center */}
+          <button
+            onClick={() => handleButtonClick(7)}
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+          >
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F370e1394f04243e4b373db75a2e1c9f5?format=webp&width=800"
               alt="Button icon"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
