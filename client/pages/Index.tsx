@@ -12,10 +12,24 @@ const portfolioItems = [
 
 export default function Index() {
   const [activeButton, setActiveButton] = useState<number | null>(null);
+  const [hoveredButton, setHoveredButton] = useState<number | null>(null);
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   const handleButtonClick = (id: number) => {
     setActiveButton(id);
     console.log(`Button ${id} clicked!`);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    setMousePosition({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleButtonHover = (id: number) => {
+    setHoveredButton(id);
+  };
+
+  const handleButtonLeave = () => {
+    setHoveredButton(null);
   };
 
   return (
@@ -43,6 +57,8 @@ export default function Index() {
           {/* Button 1 - Top Left - Money Bag */}
           <button
             onClick={() => handleButtonClick(1)}
+            onMouseEnter={() => handleButtonHover(1)}
+            onMouseLeave={handleButtonLeave}
             className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
@@ -55,6 +71,8 @@ export default function Index() {
           {/* Button 2 - Top Right - Music */}
           <button
             onClick={() => handleButtonClick(2)}
+            onMouseEnter={() => handleButtonHover(2)}
+            onMouseLeave={handleButtonLeave}
             className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
@@ -67,6 +85,8 @@ export default function Index() {
           {/* Button 3 - Middle Left - Cake Slice */}
           <button
             onClick={() => handleButtonClick(3)}
+            onMouseEnter={() => handleButtonHover(3)}
+            onMouseLeave={handleButtonLeave}
             className="absolute top-1/2 left-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
@@ -79,6 +99,8 @@ export default function Index() {
           {/* Button 4 - Middle Right - Cassette Tape (Game Catalogue) */}
           <button
             onClick={() => handleButtonClick(4)}
+            onMouseEnter={() => handleButtonHover(4)}
+            onMouseLeave={handleButtonLeave}
             className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
@@ -91,6 +113,8 @@ export default function Index() {
           {/* Button 5 - Bottom Left - Smiley Face (Stuff I Like) */}
           <button
             onClick={() => handleButtonClick(5)}
+            onMouseEnter={() => handleButtonHover(5)}
+            onMouseLeave={handleButtonLeave}
             className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
@@ -103,6 +127,8 @@ export default function Index() {
           {/* Button 6 - Bottom Right - Bread Slice */}
           <button
             onClick={() => handleButtonClick(6)}
+            onMouseEnter={() => handleButtonHover(6)}
+            onMouseLeave={handleButtonLeave}
             className="absolute bottom-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
@@ -115,6 +141,8 @@ export default function Index() {
           {/* Button 7 - Center - Animated GIF */}
           <button
             onClick={() => handleButtonClick(7)}
+            onMouseEnter={() => handleButtonHover(7)}
+            onMouseLeave={handleButtonLeave}
             className="absolute top-1/2 left-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -ml-8 md:-ml-10 -mt-8 md:-mt-10"
           >
             <img
@@ -124,6 +152,19 @@ export default function Index() {
             />
           </button>
         </div>
+
+        {/* Tooltip that follows mouse */}
+        {hoveredButton && (
+          <div
+            className="fixed pointer-events-none z-50 px-3 py-2 bg-gray-900 text-white text-sm font-comic rounded-lg shadow-lg border border-gray-700 transition-opacity duration-200"
+            style={{
+              left: mousePosition.x + 15,
+              top: mousePosition.y - 10,
+            }}
+          >
+            {portfolioItems[hoveredButton - 1].label}
+          </div>
+        )}
 
         {/* Active section indicator */}
         {activeButton && (
