@@ -140,19 +140,28 @@
   }
 
   @keyframes shake {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateX(0);
     }
-    10%, 30%, 50%, 70%, 90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
       transform: translateX(-2px);
     }
-    20%, 40%, 60%, 80% {
+    20%,
+    40%,
+    60%,
+    80% {
       transform: translateX(2px);
     }
   }
 
   @keyframes float1 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     33% {
@@ -164,7 +173,8 @@
   }
 
   @keyframes float2 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     25% {
@@ -176,7 +186,8 @@
   }
 
   @keyframes float3 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     40% {
@@ -188,7 +199,8 @@
   }
 
   @keyframes float4 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     30% {
@@ -200,7 +212,8 @@
   }
 
   @keyframes float5 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     50% {
@@ -209,7 +222,8 @@
   }
 
   @keyframes float6 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     35% {
@@ -221,7 +235,8 @@
   }
 
   @keyframes float7 {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0px, 0px) rotate(0deg);
     }
     20% {
