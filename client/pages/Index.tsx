@@ -68,7 +68,7 @@ export default function Index() {
           {/* Button 3 - Middle Left */}
           <button
             onClick={() => handleButtonClick(3)}
-            className="absolute top-1/2 left-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-1/2 left-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fdeb262142b3c4706a1945ce505d676ed?format=webp&width=800"
@@ -80,7 +80,7 @@ export default function Index() {
           {/* Button 4 - Middle Right */}
           <button
             onClick={() => handleButtonClick(4)}
-            className="absolute top-1/2 right-1/4 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F7fdcc062dd9a4885b4460fe2f54cb6bb?format=webp&width=800"
@@ -116,7 +116,7 @@ export default function Index() {
           {/* Button 7 - Center */}
           <button
             onClick={() => handleButtonClick(7)}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-1/2 left-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -ml-8 md:-ml-10 -mt-8 md:-mt-10"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F370e1394f04243e4b373db75a2e1c9f5?format=webp&width=800"
