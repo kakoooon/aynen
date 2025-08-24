@@ -7,7 +7,7 @@ const portfolioItems = [
   { id: 4, category: "Games", icon: "📼", label: "Game Catalogue" },
   { id: 5, category: "Personal", icon: "😊", label: "Stuff I Like!" },
   { id: 6, category: "Friends", icon: "👥", label: "My Friends!!!" },
-  { id: 7, category: "Portfolio", icon: "💼", label: "Portfolio" },
+  { id: 7, category: "About", icon: "👋", label: "About Me" },
 ];
 
 export default function Index() {
