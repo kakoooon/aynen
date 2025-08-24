@@ -43,72 +43,72 @@ export default function Index() {
           {/* Button 1 - Top Left */}
           <button
             onClick={() => handleButtonClick(1)}
-            className={`absolute top-0 left-8 md:left-16 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[0].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-purple-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute top-8 left-16 md:left-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
           {/* Button 2 - Top Right */}
           <button
             onClick={() => handleButtonClick(2)}
-            className={`absolute top-8 right-8 md:right-16 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[1].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-blue-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute top-8 right-16 md:right-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
           {/* Button 3 - Middle Left */}
           <button
             onClick={() => handleButtonClick(3)}
-            className={`absolute top-1/2 left-0 md:left-8 transform -translate-y-1/2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[2].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-green-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute top-1/2 left-8 md:left-16 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
           {/* Button 4 - Middle Right */}
           <button
             onClick={() => handleButtonClick(4)}
-            className={`absolute top-1/2 right-0 md:right-8 transform -translate-y-1/2 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[3].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-red-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute top-1/2 right-8 md:right-16 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
           {/* Button 5 - Bottom Left */}
           <button
             onClick={() => handleButtonClick(5)}
-            className={`absolute bottom-8 left-16 md:left-24 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[4].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-indigo-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute bottom-8 left-16 md:left-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
           {/* Button 6 - Bottom Right */}
           <button
             onClick={() => handleButtonClick(6)}
-            className={`absolute bottom-0 right-16 md:right-24 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${imageButtons[5].gradient} shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-yellow-500/25 shake-on-hover flex items-center justify-center group overflow-hidden`}
+            className="absolute bottom-8 right-16 md:right-24 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F932e966608a04a2a91f729ee16b899dc?format=webp&width=800"
               alt="Button icon"
-              className="w-12 h-12 md:w-16 md:h-16 object-cover group-hover:scale-125 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
         </div>
