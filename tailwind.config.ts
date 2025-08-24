@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         'gothic': ['Gothic Pixel', 'monospace'],
+        'comic': ['Comic Sans MS', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",

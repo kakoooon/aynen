@@ -50,11 +50,11 @@ export default function Index() {
       {/* Main content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-7xl font-bold text-red-500 mb-6 tracking-tight font-gothic">
-            Kakoon
+          <h1 className="text-5xl md:text-7xl font-bold text-red-500 mb-6 tracking-tight font-comic">
+            falan
           </h1>
-          <p className="text-xl text-white max-w-2xl mx-auto leading-relaxed font-gothic">
-            Viruses at a reasonable price
+          <p className="text-xl text-white max-w-2xl mx-auto leading-relaxed font-comic">
+            of ya
           </p>
         </div>
 
