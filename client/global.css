@@ -110,6 +110,35 @@
     animation: shake 0.5s ease-in-out infinite;
   }
 
+  /* Floating space animations */
+  .float-1 {
+    animation: float1 6s ease-in-out infinite;
+  }
+
+  .float-2 {
+    animation: float2 8s ease-in-out infinite;
+  }
+
+  .float-3 {
+    animation: float3 7s ease-in-out infinite;
+  }
+
+  .float-4 {
+    animation: float4 9s ease-in-out infinite;
+  }
+
+  .float-5 {
+    animation: float5 5.5s ease-in-out infinite;
+  }
+
+  .float-6 {
+    animation: float6 7.5s ease-in-out infinite;
+  }
+
+  .float-7 {
+    animation: float7 6.5s ease-in-out infinite;
+  }
+
   @keyframes shake {
     0%, 100% {
       transform: translateX(0);
@@ -119,6 +148,90 @@
     }
     20%, 40%, 60%, 80% {
       transform: translateX(2px);
+    }
+  }
+
+  @keyframes float1 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    33% {
+      transform: translate(8px, -6px) rotate(1deg);
+    }
+    66% {
+      transform: translate(-4px, 8px) rotate(-1deg);
+    }
+  }
+
+  @keyframes float2 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+      transform: translate(-6px, 4px) rotate(-0.5deg);
+    }
+    75% {
+      transform: translate(7px, -5px) rotate(0.8deg);
+    }
+  }
+
+  @keyframes float3 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    40% {
+      transform: translate(5px, 7px) rotate(0.7deg);
+    }
+    80% {
+      transform: translate(-7px, -3px) rotate(-0.9deg);
+    }
+  }
+
+  @keyframes float4 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    30% {
+      transform: translate(-5px, -7px) rotate(-0.6deg);
+    }
+    70% {
+      transform: translate(8px, 4px) rotate(1.2deg);
+    }
+  }
+
+  @keyframes float5 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    50% {
+      transform: translate(6px, -8px) rotate(0.9deg);
+    }
+  }
+
+  @keyframes float6 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    35% {
+      transform: translate(-8px, 5px) rotate(-1.1deg);
+    }
+    65% {
+      transform: translate(4px, -6px) rotate(0.4deg);
+    }
+  }
+
+  @keyframes float7 {
+    0%, 100% {
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    20% {
+      transform: translate(7px, 6px) rotate(0.8deg);
+    }
+    60% {
+      transform: translate(-5px, -4px) rotate(-0.7deg);
+    }
+    90% {
+      transform: translate(3px, 8px) rotate(0.5deg);
     }
   }
 }

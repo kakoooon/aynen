@@ -59,7 +59,7 @@ export default function Index() {
             onClick={() => handleButtonClick(1)}
             onMouseEnter={() => handleButtonHover(1)}
             onMouseLeave={handleButtonLeave}
-            className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group float-1"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F12d6052df9f04923a1e47068c837b4af?format=webp&width=800"
@@ -73,7 +73,7 @@ export default function Index() {
             onClick={() => handleButtonClick(2)}
             onMouseEnter={() => handleButtonHover(2)}
             onMouseLeave={handleButtonLeave}
-            className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group float-2"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F04be9eb475d0436badc2cd6e493bf06c?format=webp&width=800"
@@ -87,7 +87,7 @@ export default function Index() {
             onClick={() => handleButtonClick(3)}
             onMouseEnter={() => handleButtonHover(3)}
             onMouseLeave={handleButtonLeave}
-            className="absolute top-1/2 left-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
+            className="absolute top-1/2 left-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10 float-3"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F6948f913d89b4e26877500f69630773f?format=webp&width=800"
@@ -101,7 +101,7 @@ export default function Index() {
             onClick={() => handleButtonClick(4)}
             onMouseEnter={() => handleButtonHover(4)}
             onMouseLeave={handleButtonLeave}
-            className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
+            className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10 float-4"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F17cb708c47b943d394f1133e10e83e9e?format=webp&width=800"
@@ -115,7 +115,7 @@ export default function Index() {
             onClick={() => handleButtonClick(5)}
             onMouseEnter={() => handleButtonHover(5)}
             onMouseLeave={handleButtonLeave}
-            className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group float-5"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fc0e5a66fff5840b8b08eed9c2400f9d4?format=webp&width=800"
@@ -129,7 +129,7 @@ export default function Index() {
             onClick={() => handleButtonClick(6)}
             onMouseEnter={() => handleButtonHover(6)}
             onMouseLeave={handleButtonLeave}
-            className="absolute bottom-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
+            className="absolute bottom-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group float-6"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F4528dcd956da4f95992834915cbaac5d?format=webp&width=800"
@@ -143,7 +143,7 @@ export default function Index() {
             onClick={() => handleButtonClick(7)}
             onMouseEnter={() => handleButtonHover(7)}
             onMouseLeave={handleButtonLeave}
-            className="absolute top-1/2 left-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -ml-8 md:-ml-10 -mt-8 md:-mt-10"
+            className="absolute top-1/2 left-1/2 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -ml-8 md:-ml-10 -mt-8 md:-mt-10 float-7"
           >
             <img
               src="https://i.pinimg.com/originals/2b/87/8f/2b878fc08878b8673b9a942a8f5fac55.gif"
