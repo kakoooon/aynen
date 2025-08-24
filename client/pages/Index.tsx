@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const portfolioItems = [
-  { id: 1, category: "Money", icon: "💰", label: "Money Bag" },
+  { id: 1, category: "Work", icon: "💼", label: "Portfolio" },
   { id: 2, category: "Music", icon: "🎵", label: "Music" },
-  { id: 3, category: "Projects", icon: "🍰", label: "Projects" },
+  { id: 3, category: "Contact", icon: "📧", label: "Contact Me" },
   { id: 4, category: "Games", icon: "📼", label: "Game Catalogue" },
   { id: 5, category: "Personal", icon: "😊", label: "Stuff I Like!" },
-  { id: 6, category: "Food", icon: "🍞", label: "Blog" },
+  { id: 6, category: "Friends", icon: "👥", label: "My Friends!!!" },
   { id: 7, category: "Portfolio", icon: "💼", label: "Portfolio" },
 ];
 
