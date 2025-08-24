@@ -15,6 +15,25 @@ export default function Index() {
   const [audioStarted, setAudioStarted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
+  // Try to start audio when component mounts
+  useEffect(() => {
+    const tryAutoplay = async () => {
+      if (audioRef.current && !audioStarted) {
+        try {
+          await audioRef.current.play();
+          setAudioStarted(true);
+          console.log('Autoplay started successfully');
+        } catch (error) {
+          console.log('Autoplay blocked by browser, will start on user interaction');
+        }
+      }
+    };
+
+    // Small delay to ensure audio element is ready
+    const timer = setTimeout(tryAutoplay, 100);
+    return () => clearTimeout(timer);
+  }, [audioStarted]);
+
   const startAudio = () => {
     if (!audioStarted && audioRef.current) {
       audioRef.current.play().catch(console.error);
@@ -24,7 +43,7 @@ export default function Index() {
 
   const handleButtonClick = (id: number) => {
     setActiveButton(id);
-    startAudio(); // Start audio on first button click
+    startAudio(); // Fallback: start audio on button click if autoplay failed
     console.log(`Button ${id} clicked!`);
   };
 
