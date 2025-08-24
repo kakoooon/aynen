@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const portfolioItems = [
-  { id: 1, category: "Design", icon: "😊", label: "About Me" },
-  { id: 2, category: "Skills", icon: "🧪", label: "Skills" },
+  { id: 1, category: "Money", icon: "💰", label: "Money Bag" },
+  { id: 2, category: "Music", icon: "🎵", label: "Music" },
   { id: 3, category: "Projects", icon: "🍰", label: "Projects" },
-  { id: 4, category: "Music", icon: "🎵", label: "Music" },
-  { id: 5, category: "Media", icon: "📼", label: "Media" },
+  { id: 4, category: "Games", icon: "📼", label: "Game Catalogue" },
+  { id: 5, category: "Personal", icon: "😊", label: "Stuff I Like!" },
   { id: 6, category: "Food", icon: "🍞", label: "Blog" },
   { id: 7, category: "Portfolio", icon: "💼", label: "Portfolio" },
 ];
@@ -40,26 +40,26 @@ export default function Index() {
 
         {/* Container for scattered buttons */}
         <div className="relative w-full max-w-6xl h-96 md:h-[500px]">
-          {/* Button 1 - Top Left - Smiley Face */}
+          {/* Button 1 - Top Left - Money Bag */}
           <button
             onClick={() => handleButtonClick(1)}
             className="absolute top-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fc0e5a66fff5840b8b08eed9c2400f9d4?format=webp&width=800"
-              alt="Smiley Face"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F12d6052df9f04923a1e47068c837b4af?format=webp&width=800"
+              alt="Money Bag"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 2 - Top Right - Potion */}
+          {/* Button 2 - Top Right - Music */}
           <button
             onClick={() => handleButtonClick(2)}
             className="absolute top-4 right-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F12d6052df9f04923a1e47068c837b4af?format=webp&width=800"
-              alt="Potion"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F04be9eb475d0436badc2cd6e493bf06c?format=webp&width=800"
+              alt="Music"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
@@ -76,26 +76,26 @@ export default function Index() {
             />
           </button>
 
-          {/* Button 4 - Middle Right - Music Note */}
+          {/* Button 4 - Middle Right - Cassette Tape (Game Catalogue) */}
           <button
             onClick={() => handleButtonClick(4)}
             className="absolute top-1/2 right-1/4 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group -mt-8 md:-mt-10"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F04be9eb475d0436badc2cd6e493bf06c?format=webp&width=800"
-              alt="Music Note"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F17cb708c47b943d394f1133e10e83e9e?format=webp&width=800"
+              alt="Cassette Tape"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
 
-          {/* Button 5 - Bottom Left - Cassette Tape */}
+          {/* Button 5 - Bottom Left - Smiley Face (Stuff I Like) */}
           <button
             onClick={() => handleButtonClick(5)}
             className="absolute bottom-4 left-1/3 w-16 h-16 md:w-20 md:h-20 transition-all duration-300 hover:scale-110 shake-on-hover group"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2F17cb708c47b943d394f1133e10e83e9e?format=webp&width=800"
-              alt="Cassette Tape"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7131692855d7442a8df38b02d45371ad%2Fc0e5a66fff5840b8b08eed9c2400f9d4?format=webp&width=800"
+              alt="Smiley Face"
               className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-300 rounded-2xl"
             />
           </button>
